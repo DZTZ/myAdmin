@@ -10,9 +10,6 @@ function errorCodeHandle(codeStatus) {
       router.push({ name: "Login" });
   }
 }
-
-// axios.defaults.baseURL = isProd ? "http://hd215.api.yesapi.cn/?s=" : '/api';
-// axios.defaults.baseURL = "http://hd215.api.yesapi.cn";
 // 表单请求
 axios.formRequest = axios.create({
   baseURL: "https://hd215.api.yesapi.cn/",
