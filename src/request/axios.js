@@ -15,7 +15,7 @@ function errorCodeHandle(codeStatus) {
 // axios.defaults.baseURL = "http://hd215.api.yesapi.cn";
 // 表单请求
 axios.formRequest = axios.create({
-  baseURL: "http://hd215.api.yesapi.cn/",
+  baseURL: "https://hd215.api.yesapi.cn/",
   timeout: 4000,
   // withCredentials: true,
   // headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'},
