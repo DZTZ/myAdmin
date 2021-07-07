@@ -5,12 +5,12 @@
 //   return path.join(__dirname, dir);
 // }
 let cdn = {
-  css: ["https://cdn.bootcdn.net/ajax/libs/ant-design-vue/1.7.2/antd.min.css"],
+  css: ["https://dztz.github.io/cdn/antd1.7.2.min.css"],
   js: [
     "https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js",
     "https://cdn.jsdelivr.net/npm/vue-router@3.4.9/dist/vue-router.min.js",
     "https://cdn.jsdelivr.net/npm/vuex@3.6.0/dist/vuex.min.js",
-    "https://dztz.github.io/cdn/antd.min.js"
+    "https://dztz.github.io/cdn/antd1.7.2.min.js"
     // "https://cdn.bootcdn.net/ajax/libs/ant-design-vue/1.7.2/antd.min.js"
   ]
 };

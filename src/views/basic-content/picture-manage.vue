@@ -18,9 +18,9 @@
         </div>
       </div>
       <div class="form-right">
-<!--        <a-button type="primary" icon="plus" @click="addVisible = true" style="margin-right: 10px">-->
-<!--          添加标签-->
-<!--        </a-button>-->
+        <!--        <a-button type="primary" icon="plus" @click="addVisible = true" style="margin-right: 10px">-->
+        <!--          添加标签-->
+        <!--        </a-button>-->
         <a-button type="primary" icon="plus" @click="addVisible = true">
           添加
         </a-button>
@@ -86,7 +86,7 @@
         </a-form-item>
         <a-form-item label="地址">
           <a-textarea
-            placeholder="技术栈"
+            placeholder="图片地址"
             :auto-size="{ minRows: 3, maxRows: 5 }"
             v-decorator="[
               'url',
@@ -178,7 +178,7 @@ export default {
     this.getList();
   },
   methods: {
-    labelChange(){
+    labelChange() {
       this.getList();
     },
     getList() {
@@ -198,7 +198,7 @@ export default {
       });
     },
     getLabelList() {
-      labelList().then(res => {
+      labelList({ page: 1, perpage: 100 }).then(res => {
         if (res.data.err_code === 0) {
           this.labelList = res.data.list;
         } else {
