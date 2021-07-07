@@ -10,6 +10,7 @@ let cdn = {
     "https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js",
     "https://cdn.jsdelivr.net/npm/vue-router@3.4.9/dist/vue-router.min.js",
     "https://cdn.jsdelivr.net/npm/vuex@3.6.0/dist/vuex.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js",
     "https://dztz.github.io/cdn/antd1.7.2.min.js"
   ]
 };
@@ -24,6 +25,7 @@ module.exports = {
       vue: "Vue",
       "vue-router": "VueRouter",
       vuex: "Vuex",
+      moment: "moment",
       "ant-design-vue": "antd"
     },
     plugins: [
