@@ -11,7 +11,6 @@ let cdn = {
     "https://cdn.jsdelivr.net/npm/vue-router@3.4.9/dist/vue-router.min.js",
     "https://cdn.jsdelivr.net/npm/vuex@3.6.0/dist/vuex.min.js",
     "https://dztz.github.io/cdn/antd1.7.2.min.js"
-    // "https://cdn.bootcdn.net/ajax/libs/ant-design-vue/1.7.2/antd.min.js"
   ]
 };
 module.exports = {
